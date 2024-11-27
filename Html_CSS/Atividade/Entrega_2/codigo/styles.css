@@ -1,0 +1,214 @@
+/* Estilos gerais para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #212529;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: #ccc;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+/* Estilo para o link ativo */
+header nav a.active {
+  color: #b14646;
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+header nav a:hover {
+  color: #fff;
+}
+/* Estilos para o main e seções */
+main {
+  padding: 2rem;
+}
+
+/* Estilos para a seção de banner */
+.banner {
+  background-color: #2c2f32;
+  color: #f7fdff;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para o título no banner */
+.banner h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+/* Estilos gerais para seções */
+.section {
+  padding: 2rem;
+}
+
+/* Estilos para a seção "Sobre Mim" */
+.section .content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Estilos para imagens dentro das seções */
+.section img {
+  max-width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Estilos para os parágrafos */
+.content p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* Exemplo de estilos adicionais */
+.content p:first-letter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2223ff;
+}
+
+/* Adiciona indentação no início dos parágrafos */
+.content p {
+  text-indent: 1.5rem;
+}
+
+/* Estilos para a seção depoimentos */
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+/* Estilos para itens depoimentos */
+.testimonial-item {
+  flex: 1;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para a seção de projetos */
+.projects {
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-item {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 2rem);
+  max-width: 300px;
+  margin: 0.5rem;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-item h3 {
+  margin: 0;
+  padding: 1rem;
+  background-color: #2c2f32;
+  color: #f7fdff;
+}
+.project-item p {
+  padding: 1rem;
+}
+
+/**/
+.btn-primary {
+  background-color: #1f2223;
+  border-color: #2c3032;
+}
+
+.btn-block {
+  background-color: #1f2223;
+  border-color: #2c3032;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #2c2f32;
+  color: #f7fdff;
+  text-align: center;
+  padding: 1rem;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Media Queries para tornar a página responsiva */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .banner {
+    height: 200px;
+    font-size: 1.5rem;
+  }
+  .projects,
+  .testimonials {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-item,
+  .testimonial-item {
+    min-width: 100%;
+  }
+  .section .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .contact-form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.875rem;
+  }
+}

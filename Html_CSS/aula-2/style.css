@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(255, 0, 149);
+  font-size: 30px;
+  margin: 25px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+div {
+  color: pink;
+  font-family: "Roboto Mono", monospace;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: square;
+  padding: 5;
+}
+
+li {
+  color: rgb(139, 0, 120);
+  font-size: 25px;
+  margin-bottom: 5px;
+}
