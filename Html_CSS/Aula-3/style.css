@@ -1,0 +1,141 @@
+.block-element {
+  display: block;
+  width: 50%;
+  margin: 10px 0;
+  background-color: lightgray;
+}
+
+.inline-element {
+  display: inline;
+  color: red;
+  font-weight: bold;
+}
+
+.inline-block-element {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+.static-box {
+  position: static;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.sticky-container {
+  height: 1000px;
+  background-color: lightyellow;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 10px;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightgray;
+}
+/* .flex-container {
+  display: flex;
+  flex-direction: row;
+} */
+/* 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+/* 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+} */
+/* 
+.flex-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+} */
+/* 
+.flex-container {
+  display: flex;
+}
+.item {
+  padding: 10px;
+  background-color: lightcoral;
+  margin: 5px;
+} */
+
+/* .flex-container {
+  display: flex;
+}
+.item {
+  padding: 10px;
+  background-color: lightblue;
+  margin: 5px;
+} */
+
+/* .flex-container {
+  display: flex;
+  width: 300px;
+}
+.item {
+  width: 200px;
+  padding: 10px;
+  background-color: lightgreen;
+  margin: 5px;
+} */
+
+.flex-container {
+  display: flex;
+}
+.item {
+  padding: 10px;
+  background-color: lightpink;
+  margin: 5px;
+}

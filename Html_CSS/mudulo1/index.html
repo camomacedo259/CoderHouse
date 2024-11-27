@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu primeiro Site./title>
+  </head>
+  <body>
+    <div>
+      <p>Meu primeiro paragrafo dentro do div</p>
+      <span>Este e um span dentro de uma div</span>
+    </div>
+
+    <h1 class="titulos">Meu Primeiro Site</h1>
+    <p>Este e um paragrafo de exemplo</p>
+
+    <a href=""></a>
+    <img src="" alt="" />
+
+    <!--Esta lista ordenada-->
+    <ol>
+      <li>Batir</li>
+      <li>Cozinhar</li>
+      <li>Comer</li>
+    </ol>
+    <!--Não ordenada-->
+    <ul>
+      <li>Agua</li>
+      <li>Carne</li>
+      <li>Verduras</li>
+    </ul>
+
+    <!--Link Absoluto aponta para um link externo-->
+    <a href="https://www.google.com.br">Google </a>
+
+    <!--Link relativos-->
+    <a href="01.html">Pagina 1 </a>
+
+    <!--Link Interno-->
+    <a href="#Depoimentos">Depoimentos </a>
+
+    <section id="Depoimentos">
+      <p>Depoimentos</p>
+    </section>
+    <!--Videos-->
+    <video src="video.mp4" controls></video>
+
+    <!--Audio-->
+    <audio src="messagem.mp3" controls></audio>
+
+    <!-- Tabela | Para monta emails-->
+    <table>
+      <tr>
+        <th>Nome</th>
+        <!--Cabeçalho-->
+        <th>Cidade</th>
+        <th>Idade</th>
+      </tr>
+      <tr>
+        <td>Camila</td>
+        <!--Celulas-->
+        <td>Itapevi</td>
+        <td>41</td>
+      </tr>
+    </table>
+
+    <!--Formularios-->
+    <form action="/submit" method="post">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" />
+      <label for="password">Senha</label>
+      <input type="password" name="password" id="password" />
+      <label for="mensagem">Mensagem</label>
+      <textarea nome="mensagem" id="mensagem"></textarea>
+
+      <label for="Genero">Genero:</label>
+      <input type="radio" name="homem" id="homem" />
+      <label for="homem">Homem</label>
+
+      <input type="radio" name="mulher" id="mulher" />
+      <label for="mulher">Mulher</label>
+
+      <input type="radio" name="outro" id="outro" />
+      <label for="mulher">Outro</label>
+
+      <label for="inscricao">Inscrição</label>
+      <input type="checkbox" name="inscricao" id="inscricao" />
+
+      <label for="pais">Pais</label>
+      <select name="" id="">
+        <option value="">Brasil</option>
+        <option value="">Argentina</option>
+        <option value="">Uruguai</option>
+      </select>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

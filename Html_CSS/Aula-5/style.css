@@ -1,0 +1,70 @@
+/* Estilos adicionais para melhorar a interatividade com pseudoclasses */
+
+/* Links */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+/* Botões */
+.btn-secondary:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+.btn-secondary:active {
+  background-color: gray;
+  color: black;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    float: none;
+    display: block;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header,
+  .footer {
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .col-md-8,
+  .col-md-4 {
+    width: 100%;
+  }
+  .header,
+  .footer {
+    padding: 5px;
+  }
+  .navbar {
+    text-align: center;
+  }
+}

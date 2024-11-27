@@ -1,0 +1,134 @@
+/* Define o contêiner principal */
+.container {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background: #0f0e0e;
+  font-family: "Roboto Mono";
+  color: #dc247d;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* Estiliza o título dentro do contêiner */
+.container h1 {
+  color: #dc247d;
+  font-size: 35px;
+  margin: auto;
+  font-family: "Roboto Mono";
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.891%;
+}
+/* Estiliza a imagem dentro do contêiner */
+.container img {
+  width: 100%;
+  height: auto;
+}
+/* Estiliza a lista horizontal */
+.horizontal-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  width: fit-content;
+}
+
+/* Estiliza os links dentro da lista horizontal */
+.horizontal-list li a {
+  margin-right: 20px;
+  font-size: 25px;
+  font-style: normal;
+  color: #d116b8;
+  text-align: center;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  line-height: 131.891%;
+  letter-spacing: 12.75px;
+}
+/* Estiliza o corpo da página */
+body {
+  background: #0f0e0e;
+}
+/* Estiliza o conteúdo principal */
+main {
+  color: pink;
+  font-family: "Roboto Mono";
+  text-align: center;
+  margin-right: 20px;
+}
+/* Estiliza o rodapé */
+footer {
+  color: #ffc0cb;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: "Roboto Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.891%;
+  letter-spacing: 7.65px;
+}
+/* Estiliza um texto conteudo */
+#texto {
+  color: #ffc0cb;
+  text-align: center;
+  font-family: "Roboto Mono";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+/* Estiliza a seção de formulários */
+.formularios {
+  color: #d116b8;
+  text-align: left;
+  bottom: 0;
+  font-size: 15px;
+  width: 100%;
+  margin-right: 20px;
+  font-family: "Roboto Mono";
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+}
+/* Estiliza os campos de entrada e área de texto no formulário */
+.formularios input,
+.formularios textarea {
+  background-color: #ffc0cb;
+  color: #333333;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+/* Estiliza os rótulos no formulário */
+.formularios label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Estiliza o botão de envio do formulário */
+.formularios input[type="submit"] {
+  background-color: #d116b8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+}

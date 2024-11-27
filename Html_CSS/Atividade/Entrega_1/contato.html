@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Contato</title>
+  </head>
+  <body>
+    <header>
+    <!-- Contêiner principal -->
+    <div class="container">
+      <h1>Contato</h1>
+      <img src="banner.png" alt="imagem" />
+      <!-- Seção de navegação -->
+      <nav>
+        <ul class="horizontal-list">
+          <li><a href="index.html">Home</a></li>       
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+     <!-- Conteúdo principal -->
+      <section class="formularios">
+        <form action="/submit" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" />
+          <label for="password">Email:</label>
+          <input type="password" name="password" id="password" />
+          <label for="mensagem">Mensagem:</label>
+          <textarea nome="mensagem" id="mensagem" rows="4" required></textarea>
+          <input type="submit" value="Enviar" />
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+      <p>© 2024 Entrega 1</p>
+    </footer>
+  </body>
+</html>
