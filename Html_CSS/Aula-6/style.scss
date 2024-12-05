@@ -1,0 +1,19 @@
+$primary-color: #333;
+
+body {
+  background-color: $primary-color;
+}
+
+/*Alinhamento*/
+header {
+  background-color: $primary-color;
+  nav {
+    padding: 20px;
+    ul {
+      list-style: circle;
+      li {
+        text-decoration: underline;
+      }
+    }
+  }
+}
